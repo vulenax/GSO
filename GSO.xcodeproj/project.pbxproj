@@ -16,6 +16,13 @@
 		1844999E24BF9A6400BA6E56 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1844999C24BF9A6400BA6E56 /* LaunchScreen.storyboard */; };
 		184499A924BF9A6500BA6E56 /* GSOTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 184499A824BF9A6500BA6E56 /* GSOTests.swift */; };
 		184499B424BF9A6500BA6E56 /* GSOUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 184499B324BF9A6500BA6E56 /* GSOUITests.swift */; };
+		FCBC7D2C24C0C5430081239B /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCBC7D2B24C0C5430081239B /* SecondViewController.swift */; };
+		FCBC7D2E24C0C58A0081239B /* ThirdViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCBC7D2D24C0C58A0081239B /* ThirdViewController.swift */; };
+		FCBC7D3024C0C5E40081239B /* FourthViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCBC7D2F24C0C5E40081239B /* FourthViewController.swift */; };
+		FCBC7D3224C0C6230081239B /* FifthViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCBC7D3124C0C6230081239B /* FifthViewController.swift */; };
+		FCBC7D3424C0C6720081239B /* SixthViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCBC7D3324C0C6720081239B /* SixthViewController.swift */; };
+		FCBC7D3624C0C6AE0081239B /* SeventhViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCBC7D3524C0C6AE0081239B /* SeventhViewController.swift */; };
+		FCBC7D3824C0C6E90081239B /* EighthViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCBC7D3724C0C6E90081239B /* EighthViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +58,13 @@
 		184499AF24BF9A6500BA6E56 /* GSOUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GSOUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		184499B324BF9A6500BA6E56 /* GSOUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GSOUITests.swift; sourceTree = "<group>"; };
 		184499B524BF9A6500BA6E56 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FCBC7D2B24C0C5430081239B /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
+		FCBC7D2D24C0C58A0081239B /* ThirdViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThirdViewController.swift; sourceTree = "<group>"; };
+		FCBC7D2F24C0C5E40081239B /* FourthViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FourthViewController.swift; sourceTree = "<group>"; };
+		FCBC7D3124C0C6230081239B /* FifthViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FifthViewController.swift; sourceTree = "<group>"; };
+		FCBC7D3324C0C6720081239B /* SixthViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SixthViewController.swift; sourceTree = "<group>"; };
+		FCBC7D3524C0C6AE0081239B /* SeventhViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SeventhViewController.swift; sourceTree = "<group>"; };
+		FCBC7D3724C0C6E90081239B /* EighthViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EighthViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -109,6 +123,13 @@
 				1844999C24BF9A6400BA6E56 /* LaunchScreen.storyboard */,
 				1844999F24BF9A6400BA6E56 /* Info.plist */,
 				1844999724BF9A5E00BA6E56 /* GSO.xcdatamodeld */,
+				FCBC7D2B24C0C5430081239B /* SecondViewController.swift */,
+				FCBC7D2D24C0C58A0081239B /* ThirdViewController.swift */,
+				FCBC7D2F24C0C5E40081239B /* FourthViewController.swift */,
+				FCBC7D3124C0C6230081239B /* FifthViewController.swift */,
+				FCBC7D3324C0C6720081239B /* SixthViewController.swift */,
+				FCBC7D3524C0C6AE0081239B /* SeventhViewController.swift */,
+				FCBC7D3724C0C6E90081239B /* EighthViewController.swift */,
 			);
 			path = GSO;
 			sourceTree = "<group>";
@@ -263,8 +284,15 @@
 			buildActionMask = 2147483647;
 			files = (
 				1844999324BF9A5E00BA6E56 /* ViewController.swift in Sources */,
+				FCBC7D3824C0C6E90081239B /* EighthViewController.swift in Sources */,
+				FCBC7D3424C0C6720081239B /* SixthViewController.swift in Sources */,
 				1844999924BF9A5E00BA6E56 /* GSO.xcdatamodeld in Sources */,
 				1844998F24BF9A5E00BA6E56 /* AppDelegate.swift in Sources */,
+				FCBC7D3624C0C6AE0081239B /* SeventhViewController.swift in Sources */,
+				FCBC7D3024C0C5E40081239B /* FourthViewController.swift in Sources */,
+				FCBC7D3224C0C6230081239B /* FifthViewController.swift in Sources */,
+				FCBC7D2C24C0C5430081239B /* SecondViewController.swift in Sources */,
+				FCBC7D2E24C0C58A0081239B /* ThirdViewController.swift in Sources */,
 				1844999124BF9A5E00BA6E56 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
